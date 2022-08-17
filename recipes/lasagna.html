@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #container {
+            position: relative;
+            height: 100%
+        }
+
+        #footer{ 
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            width: 100%;
+            color:blue;
+            padding-top: 10px;
+        }  
+        #img {
+            width: 360px;
+            height: auto;
+        }
+     </style>
     <title>Lasagna Recipe</title>
 </head>
 <body>
+    <div id="container">
     <h1>Traditional Lasagna</h1>
-    <img src="../images/lasagna.jpg" alt="photo of a delicious meat lasagna"/>
+    <img src="../images/lasagna.jpg" id="img" alt="photo of a delicious meat lasagna"/>
     <h4>A traditional and simple meat lasagna with about half the time and effort!</h4>
     <h4>Serve with garlic toast and/or salad.</h4>
     <p>Ingredients:</p>
@@ -28,12 +48,18 @@
         <li>8 ounces ricotta cheese</li>
         <li>1 pound mozzarella cheese, shredded</li>
     </ul>
-    <h4>Steps:</h4>
+    <p>Steps:</p>
     <ol>
         <li>Brown the ground beef and Italian sausage in a large skillet over medium-high heat. Drain excess grease. Stir in the water and season with basil, garlic powder, oregano, sage, pepper, minced garlic, and onion flakes. Simmer for about 15 minutes, stirring frequently. Stir in the marinara sauce, and remove from the heat.</li>
         <li>Preheat the oven to 375 degrees F (190 degrees C).</li>
         <li>Place a layer of the meat and sauce in the bottom of a 9x13 inch baking dish. Cover with a layer of dry noodles. Spread a thin layer of ricotta cheese over the noodles, and sprinkle with a little mozzarella cheese. Cover with another layer of sauce, and repeat layering ending with the meat and sauce on top. Reserve about 1/2 cup of mozzarella cheese for later.</li>
         <li>Bake for 45 minutes in the preheated oven, but check after 30 minutes depending on how thick the lasagna is. Lasagna is cooked when you can easily stick a knife into it. Sprinkle the reserved cheese over the top, and return to the oven for about 10 minutes for a nice melted cheese topping.</li>
     </ol>
+<br>
+<br>
+<div id="footer"><a href="../index.html">Return to Home</a></div>
+</div>
+
 </body>
+
 </html>

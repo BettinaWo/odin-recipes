@@ -1,0 +1,41 @@
+body {
+    background-color:rgba(170, 240, 215, 0.856);
+    text-align: center;
+}
+.pagetitle {
+    color: rgb(243, 138, 69);
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+.cook {
+    text-align: center;
+}
+
+.list {
+    float: left;
+    list-style-position: inside;
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-right: 1em;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+    color: rgb(223, 121, 53);
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+footer {
+position: fixed;
+bottom: 10px;
+text-align: center;
+color: black;
+width: 100%;
+}
